@@ -21,11 +21,14 @@ Python/
 │   └── numberComparison.py
 ├── 5. Countdown Timer/
 │   └── countdownTimer.py
-├── 6. Fonctions/
-├── 7. Listes/
-├── 8. Dictionnaires/
-├── 9. Classes/
-├── 10. Fichiers/
+├── 6. Basic Math/
+│   └── basicMath.py
+├── 7. Shopping List/
+│   └── shoppingList.py
+├── 8. Contact Book/
+│   └── contactBook.py
+├── 9. Fonctions/
+├── 10. Listes/
 └── ... (jusqu'à 100 exercices)
 ```
 
@@ -53,9 +56,21 @@ Python/
   - Fichier: `5. Countdown Timer/countdownTimer.py`
   - Concepts: `import`, `time.sleep()`, boucles `while`, conversion de types (`int()`)
 
+- [x] **Exercice 6 - Basic Math** : Générateur d'opérations mathématiques aléatoires
+  - Fichier: `6. Basic Math/basicMath.py`
+  - Concepts: fonctions personnalisées, `random.choice()`, `random.randint()`, modularité du code
+
+- [x] **Exercice 7 - Shopping List** : Gestionnaire de liste de courses
+  - Fichier: `7. Shopping List/shoppingList.py`
+  - Concepts: listes (`append()`, `remove()`), `enumerate()`, boucles `for`, gestion des menus
+
+- [x] **Exercice 8 - Contact Book** : Carnet d'adresses interactif
+  - Fichier: `8. Contact Book/contactBook.py`
+  - Concepts: dictionnaires, dictionnaires imbriqués, `del`, `.items()`, `.keys()`, `.strip()`
+
 ### 🔄 En Cours
 
-- [ ] **Exercice 6** : À venir...
+- [ ] **Exercice 9** : À venir...
 
 ### 📋 Exercices Planifiés
 
@@ -64,9 +79,9 @@ Python/
 - [x] Opérateurs arithmétiques
 - [x] Structures conditionnelles (if/else)
 - [x] Boucles (for/while)
-- [ ] Fonctions de base
-- [ ] Listes et manipulation
-- [ ] Dictionnaires
+- [x] Fonctions de base
+- [x] Listes et manipulation
+- [x] Dictionnaires
 - [ ] Tuples
 - [ ] Ensembles (sets)
 - [ ] Chaînes de caractères
@@ -107,13 +122,21 @@ Python/
 - Structures conditionnelles (`if/elif/else`)
 - Opérateurs de comparaison et logiques
 - Boucles `while` et décrémentation
-- Importation de modules (`import time`)
+- Boucles `for` avec `enumerate()`
+- Importation de modules (`import time`, `import random`)
 - Gestion du temps avec `time.sleep()`
 - Gestion de la division par zéro
+- **Fonctions personnalisées** (définition et appel)
+- **Module random** (`random.choice()`, `random.randint()`)
+- **Listes** (création, `append()`, `remove()`, itération)
+- **Dictionnaires** (création, accès, modification, `.items()`, `.keys()`)
+- **Dictionnaires imbriqués** (structures de données complexes)
+- Gestion des chaînes (`strip()`)
+- Opérateur `del` pour suppression
 
 ### Concepts en Apprentissage 🔄
-- Fonctions personnalisées
-- Structures de données (listes, dictionnaires)
+- Gestion d'erreurs avancée
+- Structures de données complexes
 
 ### Concepts à Apprendre 📚
 - Programmation orientée objet
@@ -130,9 +153,9 @@ Python/
 
 ## 📊 Statistiques
 
-- **Exercices complétés**: 5/100 (5%)
+- **Exercices complétés**: 8/100 (8%)
 - **Temps investi**: À documenter
-- **Dernière mise à jour**: 10 janvier 2026
+- **Dernière mise à jour**: 16 février 2026
 
 ## 🎉 Objectifs
 
@@ -150,6 +173,9 @@ Python/
 3. **Exercice 3**: Opérateurs arithmétiques et gestion d'erreurs (division par zéro)
 4. **Exercice 4**: Structures conditionnelles et logique de comparaison
 5. **Exercice 5**: Utilisation des modules Python et gestion du temps dans les programmes
+6. **Exercice 6**: Fonctions personnalisées et génération de nombres aléatoires
+7. **Exercice 7**: Manipulation des listes et interface utilisateur avec menus
+8. **Exercice 8**: Dictionnaires complexes et gestion de données structurées
 
 ### Difficultés Rencontrées
 - Aucune pour le moment
@@ -171,5 +197,5 @@ Ce projet est à des fins éducatives personnelles.
 
 *"La programmation n'est pas une science, c'est un art."* - Donald Knuth
 
-**Dernière mise à jour**: 10 janvier 2026  
+**Dernière mise à jour**: 16 février 2026  
 **Statut**: En cours d'apprentissage 🚀
