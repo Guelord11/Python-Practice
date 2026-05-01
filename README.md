@@ -27,7 +27,8 @@ Python/
 │   └── shoppingList.py
 ├── 8. Contact Book/
 │   └── contactBook.py
-├── 9. Fonctions/
+├── 9. Ingedient Checker/
+│   └── ingredientChecker.py
 ├── 10. Listes/
 └── ... (jusqu'à 100 exercices)
 ```
@@ -68,9 +69,13 @@ Python/
   - Fichier: `8. Contact Book/contactBook.py`
   - Concepts: dictionnaires, dictionnaires imbriqués, `del`, `.items()`, `.keys()`, `.strip()`
 
+- [x] **Exercice 9 - Ingredient Checker** : Vérificateur d'ingrédients disponibles
+  - Fichier: `9. Ingedient Checker/ingredientChecker.py`
+  - Concepts: ensembles (`set`), différences d'ensembles, saisie utilisateur, comparaison de collections
+
 ### 🔄 En Cours
 
-- [ ] **Exercice 9** : À venir...
+- [ ] **Exercice 10** : À venir...
 
 ### 📋 Exercices Planifiés
 
@@ -82,8 +87,8 @@ Python/
 - [x] Fonctions de base
 - [x] Listes et manipulation
 - [x] Dictionnaires
+- [x] Ensembles (sets)
 - [ ] Tuples
-- [ ] Ensembles (sets)
 - [ ] Chaînes de caractères
 
 #### Niveau Intermédiaire (21-60)
@@ -131,6 +136,7 @@ Python/
 - **Listes** (création, `append()`, `remove()`, itération)
 - **Dictionnaires** (création, accès, modification, `.items()`, `.keys()`)
 - **Dictionnaires imbriqués** (structures de données complexes)
+- **Ensembles** (`set`, différences d'ensembles)
 - Gestion des chaînes (`strip()`)
 - Opérateur `del` pour suppression
 
@@ -153,9 +159,9 @@ Python/
 
 ## 📊 Statistiques
 
-- **Exercices complétés**: 8/100 (8%)
+- **Exercices complétés**: 9/100 (9%)
 - **Temps investi**: À documenter
-- **Dernière mise à jour**: 16 février 2026
+- **Dernière mise à jour**: 1 mai 2026
 
 ## 🎉 Objectifs
 
@@ -176,6 +182,7 @@ Python/
 6. **Exercice 6**: Fonctions personnalisées et génération de nombres aléatoires
 7. **Exercice 7**: Manipulation des listes et interface utilisateur avec menus
 8. **Exercice 8**: Dictionnaires complexes et gestion de données structurées
+9. **Exercice 9**: Manipulation des ensembles et comparaison de collections
 
 ### Difficultés Rencontrées
 - Aucune pour le moment
@@ -197,5 +204,5 @@ Ce projet est à des fins éducatives personnelles.
 
 *"La programmation n'est pas une science, c'est un art."* - Donald Knuth
 
-**Dernière mise à jour**: 16 février 2026  
+**Dernière mise à jour**: 1 mai 2026  
 **Statut**: En cours d'apprentissage 🚀
